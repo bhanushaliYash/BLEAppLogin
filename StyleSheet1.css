@@ -1,0 +1,89 @@
+﻿* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: cursive, sans-serif;
+}
+body {
+  background: linear-gradient(125deg, #6b1192, #250e83);/* old gradient to match background 45deg, #8500ff, #5acaff*/
+  height: 100vh;
+}
+#container {
+  position: absolute;
+ top: 10%;
+  left: 10%;
+  right: 10%;
+  bottom: 10%; /*  To get full screen comment this part */
+  /* width: 100%; 
+  height: 100%; */ /* this part to get full screen */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("p404bpng"), #151729;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+#container .content {
+  max-width: 600px;
+  text-align: center;
+}
+
+
+#container .row h2 {
+  font-size:12vw;
+  color: #fff;
+  line-height: 1em;
+}
+
+#container .button input[type="submit"]:hover
+{
+	background: #4c7997;
+	color: #262626;
+}
+
+#row .content h2 {
+  font-size: 20vw;
+  color: #fff;
+  line-height: 1em;
+}
+
+#container .content h5 {
+  position: relative;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #111;
+  background: #fff;
+  font-weight: 300;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+#container .content p {
+  color: #fff;
+  font-size: 1.2em;
+}
+
+#container .exampleFormControlFile1 {
+  position: relative;
+  display: inline-block;
+  background: #ff0562;
+  color: #fff;
+  margin-top: 25px;
+  border-bottom: 4px solid #d00d56;
+}
+
+.select {
+  color: white;
+  /* margin-right: 500px; */
+  padding: 10px 25px;
+  background-color: #ff0562; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 25px;
+  text-decoration: more;
+}
